@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e5d8f0;
+}
+
+
+/* ==========================================
+   3. ĐỊNH DẠNG SẢN PHẨM & HIỆU ỨNG HOVER
+   ========================================== */
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Khi hover vào khối sản phẩm, tên đổi sang màu xanh */
+.product-link:hover h5 {
+    color: #ed5845; 
+}
+
+.card {
+    transition: 0.3s;
+}
+
+/* Hiệu ứng nổi khối card và đổ bóng mượt mà khi hover */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Nút thêm vào giỏ hàng thu nhỏ gọn gàng, cách đều lề */
+.add-cart {
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   4. CÁC THÀNH PHẦN KHÁC (CALCULATOR & FOOTER)
+   ========================================== */
+.calculator {
+    background: #80b9ee;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 50px;
+}
+/* ==========================================
+   BANNER REFIX - ÉP BUỘC ĂN MÀU NỀN XÁM
+   ========================================== */
+.custom-banner {
+    background-color: #777777 !important; /* Ép buộc nhận màu xám chuẩn */
+    color: #ffffff !important;            /* Ép buộc chữ luôn màu trắng */
+    min-height: 350px !important;
+    padding: 60px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.custom-banner h1 {
+    font-size: 3rem !important;
+    color: #ffffff !important;
+}
+
+.custom-banner p {
+    font-size: 1.2rem !important;
+    color: #ffffff !important;
+    opacity: 0.9 !important;
+}
+
+/* Custom nút Mua ngay màu vàng */
+.btn-mua-ngay {
+    background-color: #ffc107 !important;
+    border: none !important;
+    color: #000000 !important; /* Chữ màu đen */
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}

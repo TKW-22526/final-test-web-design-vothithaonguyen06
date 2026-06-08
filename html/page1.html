@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet Handmade</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Crochet Handmade</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chart</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Giỏ hàng
+                            <span class="badge bg-danger" id="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Thêm đoạn Banner này vào ngay dưới thẻ </nav> -->
+    <header class="custom-banner text-white text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Home Len Handmade</h1>
+            <p class="lead mb-4">Khám phá các loại len, sản phẩm và công thức móc len độc đáo</p>
+            <a href="#products" class="btn btn-warning fw-bold px-4 py-2 text-dark rounded-3 btn-mua-ngay">Mua ngay</a>
+        </div>
+    </header>
+    <section class="container my-5">
+        <h2 class="text-center mb-4 fw-bold">Danh mục sản phẩm</h2>
+        <div class="text-center mb-4">
+            <button class="btn btn-outline-primary filter-btn active" data-filter="all">Tất cả</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="yarn">Len sợi</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="flower">Sản phẩm len</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="doll">Chart free</button>
+        </div>
+    </section>
+
+    <section id="products" class="container mb-5">
+        <div class="row g-4">
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=1" class="product-link">
+                        <img src="../assets/images/bt211.jpg" class="card-img-top" alt="BT21 đặc biệt">
+                        <div class="card-body">
+                            <h5 class="fw-bold">BT21 đặc biệt</h5>
+                            <p class="text-danger fw-bold">180.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=2" class="product-link">
+                        <img src="../assets/images/tata.jpg" class="card-img-top" alt="Gấu Tata BT21">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Gấu Tata BT21</h5>
+                            <p class="text-danger fw-bold">140.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=3" class="product-link">
+                        <img src="../assets/images/camtucau.jpg" class="card-img-top" alt="Hoa cẩm tú cầu">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Hoa cẩm tú cầu</h5>
+                            <p class="text-danger fw-bold">50.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=4" class="product-link">
+                        <img src="../assets/images/cun.jpg" class="card-img-top" alt="Cún cơm nắm">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Cún cơm nắm</h5>
+                            <p class="text-danger fw-bold">69.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=5" class="product-link">
+                        <img src="../assets/images/gau.jpg" class="card-img-top" alt="Gấu móc khóa các loại">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Gấu móc khóa các loại</h5>
+                            <p class="text-danger fw-bold">69.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=6" class="product-link">
+                        <img src="../assets/images/bohoahong.jpg" class="card-img-top" alt="Móc khóa bó hoa">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Móc khóa bó hoa</h5>
+                            <p class="text-danger fw-bold">79.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="flower">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=7" class="product-link">
+                        <img src="../assets/images/cachua.jpg" class="card-img-top" alt="Lót ly cà chua">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Lót ly cà chua</h5>
+                            <p class="text-danger fw-bold">39.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=8" class="product-link">
+                        <img src="../assets/images/mikcoton.jpg" class="card-img-top" alt="Len mikcoton">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Len mikcoton</h5>
+                            <p class="text-danger fw-bold">10.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=9" class="product-link">
+                        <img src="../assets/images/nhungdua.jpg" class="card-img-top" alt="Len nhung đũa">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Len nhung đũa</h5>
+                            <p class="text-danger fw-bold">17.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=10" class="product-link">
+                        <img src="../assets/images/nhunggau.jpg" class="card-img-top" alt="Len nhung gấu">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Len nhung gấu</h5>
+                            <p class="text-danger fw-bold">13.500 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=11" class="product-link">
+                        <img src="../assets/images/bongxu.jpg" class="card-img-top" alt="Len bông xù">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Len bông xù</h5>
+                            <p class="text-danger fw-bold">20.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=12" class="product-link">
+                        <img src="../assets/images/cotonlove.jpg" class="card-img-top" alt="Len cotonlove">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Len cotonlove</h5>
+                            <p class="text-danger fw-bold">23.500 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=13" class="product-link">
+                        <img src="../assets/images/kimmoc.jpg" class="card-img-top" alt="Kim móc len">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Kim móc len</h5>
+                            <p class="text-danger fw-bold">15.500 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=14" class="product-link">
+                        <img src="../assets/images/mocdd.jpg" class="card-img-top" alt="Móc cài đánh dấu">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Móc cài đánh dấu</h5>
+                            <p class="text-danger fw-bold">1.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4 product" data-category="yarn">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=15" class="product-link">
+                        <img src="../assets/images/kimkhau.jpg" class="card-img-top" alt="Kim khâu len">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Kim khâu len</h5>
+                            <p class="text-danger fw-bold">1.000 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="doll">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=16" class="product-link">
+                        <img src="../assets/images/chart1.jpg" class="card-img-top" alt="Chart gấu hình vuông">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Chart gấu hình vuông</h5>
+                            <p class="text-danger fw-bold">0 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="doll">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=17" class="product-link">
+                        <img src="../assets/images/chart2.jpg" class="card-img-top" alt="Chart lót ly quả táo">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Chart lót ly quả táo</h5>
+                            <p class="text-danger fw-bold">0 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product" data-category="doll">
+                <div class="card h-100 text-center">
+                    <a href="detail.html?id=18" class="product-link">
+                        <img src="../assets/images/chart3.jpg" class="card-img-top" alt="Chart máy ảnh">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Chart máy ảnh</h5>
+                            <p class="text-danger fw-bold">0 VNĐ</p>
+                        </div>
+                    </a>
+                    <div class="card-body pt-0 d-flex justify-content-center">
+                        <button class="btn btn-success add-cart px-4 fw-bold">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="calculator p-4 border rounded bg-light">
+            <h2 class="fw-bold">Crochet Calculator</h2>
+            <input type="number" id="length" class="form-control my-3" placeholder="Nhập chiều dài khăn (cm)">
+            <button onclick="calculateYarn()" class="btn btn-primary fw-bold">Tính toán</button>
+            <h4 class="mt-3" id="result"></h4>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <div class="container">
+            <p class="mb-2">© 2026 Crochet Handmade</p>
+            <div class="small text-muted">
+                <span class="me-3">📧 Email: <a href="mailto:contact@crochethandmade.com" class="text-white-50 text-decoration-none">contact@crochethandmade.com</a></span>
+                <span>🌐 Facebook: <a href="https://facebook.com/crochethandmade" target="_blank" class="text-white-50 text-decoration-none">fb.com/crochethandmade</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/lib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
